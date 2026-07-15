@@ -8,7 +8,8 @@ _*Landing Page to be created for a newly launched Turkish restaurant.
 - HTML5
 - CSS3
 
-##How to View it:
+## How to View it:
+
 Open link in your browser.
 
 Author: Taiwo Ridwan Onabanjo
