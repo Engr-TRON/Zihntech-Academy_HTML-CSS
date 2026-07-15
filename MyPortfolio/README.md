@@ -14,7 +14,8 @@ _*My personal portfolio showcasing the frontend web development projects I built
 - CSS
 - Javascript
 
-##How to View it:
+## How to View it:
+
 Click on each link in your browser.
 
 Author: Taiwo Ridwan Onabanjo
