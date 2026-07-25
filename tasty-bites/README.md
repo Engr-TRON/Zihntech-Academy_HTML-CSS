@@ -43,4 +43,4 @@ Open index.html in your browser.
 
 ## 👤 Author
 
-Taiwo Ridwan Onabanjo — sharpening my front-end we development skills, one project at a time.
+Taiwo Ridwan Onabanjo — sharpening my front-end web development skills, one project at a time.
