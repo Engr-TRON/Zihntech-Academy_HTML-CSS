@@ -9,7 +9,7 @@
 
 nav {
   display: flex;
-  background-color: #5F8A2A;
+  background-color: #5f8a2a;
   color: white;
   justify-content: space-between;
   align-items: center;
@@ -17,14 +17,12 @@ nav {
 
 nav > .logo {
   padding: 10px 40px;
-
 }
-
 
 nav ul {
   display: flex;
   justify-content: space-around;
-  gap:100px;
+  gap: 100px;
   align-items: center;
   font-size: 15px;
 }
@@ -42,17 +40,26 @@ nav > .tel {
   padding-right: 60px;
 }
 
-/* Hero_Section*//
+/* Hero_Section*/
+
 .hero {
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-url(Assets/Images/photo_3_2026-07-24_16-06-29.jpg);
-background-size:cover;
-background-repeat: no-repeat;
-background-position: center;
-color: white;
-padding: 20px 40px;
-height: 100lvh;
-line-height: 7lvh;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(Assets/Images/photo_3_2026-07-24_16-06-29.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  min-height: 70lvh;
+  display: flex;
+  align-items: center;
+  line-height: 8lvh;
+}
+
+.hero-content {
+  padding: 10px 40px;
+  width: 200%;
+  max-width: 1000px;
 }
 
 .hero h1 {
@@ -61,18 +68,18 @@ line-height: 7lvh;
 }
 
 .hero .heading {
-  font-size: 36px;
+  font-size: 35px;
   text-transform: capitalize;
 }
 
 .hero p {
   font-size: 25px;
   width: 80%;
-  max-width:1000px;
+  max-width: 1000px;
 }
 
 .hero button {
-  background-color: #5F8A2A;
+  background-color: #5f8a2a;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -85,16 +92,45 @@ line-height: 7lvh;
 
 button :hover {
   background-color: white;
-  color: #5F8A2A;
+  color: #5f8a2a;
   transition: 2s ease;
 }
 
 /* About_Section
 
-.about {
+.about-content {
   display: flex;
-  padding: 84px;
-  gap: 80px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 250px;
+  padding: 40px;
+  width: 100%;
 }
 
-.about .about-left-content img {
+.about-left-content {
+  position: relative;
+  width: 50%;
+  min-height: 450px;
+}
+
+.about-left-content img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  position: absolute;
+}
+
+.about-left-content img:first-child {
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.about-left-content img:last-child {
+  top: 100px;
+  left: 150px;
+  z-index: 2;
+}
+.about-right-content {
+  
+}
