@@ -51,13 +51,11 @@ nav > .tel {
   background-position: center;
   color: white;
   min-height: 70lvh;
-  display: flex;
-  align-items: center;
   line-height: 8lvh;
+  padding: 40px;
 }
 
 .hero-content {
-  padding: 10px 40px;
   width: 200%;
   max-width: 1000px;
 }
@@ -73,12 +71,12 @@ nav > .tel {
 }
 
 .hero p {
-  font-size: 25px;
+  font-size: 27px;
   width: 80%;
   max-width: 1000px;
 }
 
-.hero button {
+button {
   background-color: #5f8a2a;
   color: white;
   padding: 10px 20px;
@@ -96,26 +94,26 @@ button :hover {
   transition: 2s ease;
 }
 
-/* About_Section
+/* About_Section*/
 
 .about-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 250px;
+  gap: 230px;
   padding: 40px;
   width: 100%;
 }
 
 .about-left-content {
   position: relative;
-  width: 50%;
+  width: 45%;
   min-height: 450px;
 }
 
 .about-left-content img {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   position: absolute;
 }
@@ -131,6 +129,26 @@ button :hover {
   left: 150px;
   z-index: 2;
 }
+
 .about-right-content {
-  
+min-height: 70lvh;
+justify-content: center;
+align-items: center;
+}
+.about-right-content h2 {
+font-size: 17px;
+margin-bottom: 10px;
+}
+.about-right-content h3 {
+  font-size: 22px;
+}
+div p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+div p {
+  font-size: 20px;
+}
+li {
+  font-size: 20px;
 }
