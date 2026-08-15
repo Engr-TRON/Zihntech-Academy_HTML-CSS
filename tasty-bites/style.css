@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Romans", Times, Serif;
+}
+
+/*Header_section*/
+
+nav {
+  display: flex;
+  background-color: #5F8A2A;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > .logo {
+  padding: 10px 40px;
+
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  gap:100px;
+  align-items: center;
+  font-size: 15px;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav > .tel {
+  padding-right: 60px;
+}
+
+/* Hero_Section
+.hero {
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+url(Assets/Images/photo_3_2026-07-24_16-06-29.jpg);
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center;
+color: white;
+padding: 20px 40px;
+height: 100lvh;
+line-height: 7lvh;
+}
+
+.hero h1 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.hero .heading {
+  font-size: 36px;
+  text-transform: capitalize;
+}
+
+.hero p {
+  font-size: 25px;
+  width: 80%;
+  max-width:1000px;
+}
+
+.hero button {
+  background-color: #5F8A2A;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0px 10px;
+  margin-top: 20px;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+button :hover {
+  background-color: white;
+  color: #5F8A2A;
+  transition: 2s ease;
+}
+
+/* About_Section */
+
+.about {
+  display: flex;
+  padding: 84px;
+  gap: 80px;
+}
+
+.about .about-left-content img {
