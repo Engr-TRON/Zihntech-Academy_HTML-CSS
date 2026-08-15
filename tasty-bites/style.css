@@ -49,15 +49,15 @@ nav > .tel {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  color: white;
-  min-height: 70lvh;
-  line-height: 8lvh;
   padding: 40px;
 }
 
 .hero-content {
+  color: white;
   width: 200%;
   max-width: 1000px;
+  min-height: 100lvh;
+  line-height: 8lvh;
 }
 
 .hero h1 {
@@ -110,20 +110,17 @@ button :hover {
   width: 45%;
   min-height: 450px;
 }
-
 .about-left-content img {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   object-fit: cover;
   position: absolute;
 }
-
 .about-left-content img:first-child {
   top: 0;
   left: 0;
   z-index: 1;
 }
-
 .about-left-content img:last-child {
   top: 100px;
   left: 150px;
@@ -140,15 +137,84 @@ font-size: 17px;
 margin-bottom: 10px;
 }
 .about-right-content h3 {
-  font-size: 22px;
+font-size: 22px;
 }
-div p {
+.about-right-content p {
+font-size: 20px;
+margin-bottom: 10px;
+}
+.about-right-content li {
+font-size: 20px;
+}
+
+/*Menu_Section*/
+
+.menu-section {
+background-image: linear-gradient(rgba(225, 225, 225, 0.7), rgba(225, 225, 225, 0.7)),
+url(Assets/Images/photo_3_2026-07-24_16-06-29.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+padding: 40px;
+}
+
+.menu-text h2 {
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+}
+.menu-text h3 {
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.menu-section ul {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 45px;
+list-style-type: none;
+}
+li .dish-card1, .dish-card2, .dish-card3, .dish-card4 {
+background-color: white;
+border-radius: 10px;
+width: 250px;
+height: 350px;
+padding: 40px;
+}
+
+.dish-image img {
+width: 140px;
+height: 140px;
+border-radius: 100%;
+margin: auto;
+object-fit: cover;
+}
+
+hr {
+  width: 80%;
+  margin: 20px auto;
+  border: none;
+  border-top: 1px solid #000;
+}
+
+.dish-text h3 p {
   font-size: 20px;
-  margin-bottom: 10px;
 }
-div p {
-  font-size: 20px;
+
+.dish-text .rating {
+  color: gold;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin: 10px auto;
 }
-li {
-  font-size: 20px;
+
+.dish-card1, .dish-card2, .dish-card3, .dish-card4 {
+text-align: center;
+font-size: 15px;
+margin: 10px auto;
 }
+
+/* Testimonial_Section*/
