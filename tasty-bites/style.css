@@ -42,7 +42,7 @@ nav > .tel {
   padding-right: 60px;
 }
 
-/* Hero_Section
+/* Hero_Section*//
 .hero {
 background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
 url(Assets/Images/photo_3_2026-07-24_16-06-29.jpg);
@@ -89,7 +89,7 @@ button :hover {
   transition: 2s ease;
 }
 
-/* About_Section */
+/* About_Section
 
 .about {
   display: flex;
