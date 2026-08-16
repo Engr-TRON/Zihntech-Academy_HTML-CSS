@@ -89,10 +89,10 @@ button {
   cursor: pointer;
 }
 
-button :hover {
+button:hover {
   background-color: white;
   color: #5f8a2a;
-  transition: 2s ease;
+  transition: 1s ease;
 }
 
 /* About_Section*/
@@ -228,11 +228,11 @@ hr {
 /* Testimonial_Section*/
 
 .testimonial {
-background-color: #dddddd;
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-padding: 40px;
+  background-color: #dddddd;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 40px;
 }
 
 .testimonial h2 {
@@ -277,11 +277,11 @@ padding: 40px;
 /*Gallery_Section*/
 
 .gallery {
-background-color: white;
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-padding: 40px;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 40px;
 }
 
 .gallery h2 {
@@ -301,9 +301,8 @@ padding: 40px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 200px 200px;
   gap: 15px;
-
   margin: 0 auto;
-  padding: 0;;
+  padding: 0;
 }
 
 .gallery-container li {
@@ -323,11 +322,94 @@ ul img {
 
 .gallery-container img {
   width: 100%;
-  height:100%;
+  height: 100%;
   object-fit: cover;
 }
 
 .gallery button {
- display: block;
- margin: 20px auto;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Article_Section*/
+
+article {
+  background-color: #dddddd;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 40px;
+}
+
+article h2 {
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+}
+
+article h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.blog-section{
+display:flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
+}
+
+.blog1 img {
+  object-fit: cover;
+  width:100%;
+  height:100%;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.blog1 p {
+}
+
+.blog1 ul {
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 15px;
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 160px;
+}
+
+.blog1 h2 {
+  font-size: 23px;
+  margin: 15px 0px;
+  text-align: left;
+}
+
+.blog1 h3 {
+  font-size: 19px;
+  font-weight: lighter;
+  text-align: left;
+  width: 90%;
+}
+
+.blog1 a {
+font-size: 20px;
+text-align: center;
+text-decoration: none;
+margin-top: 2px;
+}
+.blog1 a:link {
+  color: black;
+}
+.blog1 a:visited {
+  color: red;
+}
+.blog1 a:hover {
+  color: #5f8a2a;
+}
+.blog1 a:active {
+  color: blue;
 }
