@@ -128,34 +128,35 @@ button :hover {
 }
 
 .about-right-content {
-min-height: 70lvh;
-justify-content: center;
-align-items: center;
+  min-height: 70lvh;
+  justify-content: center;
+  align-items: center;
 }
 .about-right-content h2 {
-font-size: 17px;
-margin-bottom: 10px;
+  font-size: 17px;
+  margin-bottom: 10px;
 }
 .about-right-content h3 {
-font-size: 22px;
+  font-size: 22px;
 }
 .about-right-content p {
-font-size: 20px;
-margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 .about-right-content li {
-font-size: 20px;
+  font-size: 20px;
 }
 
 /*Menu_Section*/
 
 .menu-section {
-background-image: linear-gradient(rgba(225, 225, 225, 0.7), rgba(225, 225, 225, 0.7)),
-url(Assets/Images/photo_3_2026-07-24_16-06-29.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-padding: 40px;
+  background-image:
+    linear-gradient(rgba(225, 225, 225, 0.7), rgba(225, 225, 225, 0.7)),
+    url(Assets/Images/photo_3_2026-07-24_16-06-29.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 40px;
 }
 
 .menu-text h2 {
@@ -171,26 +172,29 @@ padding: 40px;
 }
 
 .menu-section ul {
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 45px;
-list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  list-style-type: none;
 }
-li .dish-card1, .dish-card2, .dish-card3, .dish-card4 {
-background-color: white;
-border-radius: 10px;
-width: 250px;
-height: 350px;
-padding: 40px;
+li .dish-card1,
+.dish-card2,
+.dish-card3,
+.dish-card4 {
+  background-color: white;
+  border-radius: 10px;
+  width: 250px;
+  height: 350px;
+  padding: 40px;
 }
 
 .dish-image img {
-width: 140px;
-height: 140px;
-border-radius: 100%;
-margin: auto;
-object-fit: cover;
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  margin: auto;
+  object-fit: cover;
 }
 
 hr {
@@ -211,10 +215,60 @@ hr {
   margin: 10px auto;
 }
 
-.dish-card1, .dish-card2, .dish-card3, .dish-card4 {
-text-align: center;
-font-size: 15px;
-margin: 10px auto;
+.dish-card1,
+.dish-card2,
+.dish-card3,
+.dish-card4 {
+  text-align: center;
+  font-size: 15px;
+  margin: 10px auto;
 }
 
 /* Testimonial_Section*/
+
+.testimonial {
+  background-color: #dddddd;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 40px;
+}
+
+.testimonial h2 {
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+}
+.testimonial h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.reviews img {
+  width: 95px;
+  height: 95px;
+  border-radius: 100%;
+  margin: 20px 130px;
+  object-fit: cover;
+  gap: 80px;
+}
+
+.reviews h3 {
+  font-size: 17px;
+  text-align: center;
+  width: 350px;
+}
+
+.reviews p {
+  font-size: 15px;
+  text-align: center;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  list-style-type: none;
+}
